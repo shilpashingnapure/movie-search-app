@@ -111,7 +111,7 @@
 	//FUNCTION TO TAKE VALUE OF INPUT
 	function searchMovie(str){
 		var title = document.querySelector("#movieTitle").value
-		url_search = `http://www.omdbapi.com/?apikey=eae2d946&s=${title}`
+		url_search = `https://www.omdbapi.com/?apikey=eae2d946&s=${title}`
 
 		//PASSING VALUE AS PARAMETER FOR THE FETCH 
 		Getmovie(url_search , str)
