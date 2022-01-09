@@ -172,7 +172,7 @@
 				document.querySelector(".searchMovie").innerHTML = "";
 				document.querySelector(".searchMovie + h1").innerHTML = "";
 				//THIS FETCH IS FOR GET API OF ONE PARTICLUAR MOVIE (USING IMDBID)
-				url_movie = `http://www.omdbapi.com/?apikey=eae2d946&i=${id}`
+				url_movie = `https://www.omdbapi.com/?apikey=eae2d946&i=${id}`
 
 				fetch(url_movie)
 				.then(function(res){
